@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PageRank Website</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            overflow-x: hidden;
+        }
+        p {
+            margin-right: 50%;
+        }
+        ul {
+          position: absolute;
+          top:0;
+          right:0;
+          list-style-type: none;
+          zIndex: 100;
+          margin: 0;
+          padding: 0;
+
+
+        }
+
+        li {
+          float: right;
+
+        }
+
+        li a {
+          zIndex: 100;
+          display: block;
+          color: white;
+          text-align: right;
+          padding-top:20px;
+          padding-right: 8vw;
+          text-decoration: none;
+          text-size: 30px;
+          border-radius: 30%;
+        }
+
+        li a:hover {
+          color: black;
+        }
+        h1 {
+            color: #3a0000;
+            margin-left: 30px;
+        }
+
+        .container {
+            background-color: #44668f;
+            color: white;
+            position: relative;
+            top:3.5vw;
+            left: -10px;
+            padding-top: 15px;
+            padding-left: 10vw;
+            padding-right: 100vw;
+            padding-bottom: 15px;
+            width: 77.5vw;
+
+        display: inline-block;
+
+        }
+
+
+        .circle {
+            width: 70%;
+            padding-top:70%;
+            float: right;
+            zIndex: -10;
+            opacity: 100%;
+            margin-right: -72.5%;
+            margin-top: -27.5%;
+            background-color: #92CDED;
+            border-radius: 50%;
+
+        }
+        .circleShadow {
+            width: 75%;
+            padding-top:75%;
+            zIndex: -100;
+            float: right;
+            opacity: 45%;
+            margin-right: -30%;
+            margin-top: -30%;
+            background-color: #9FDDEF;
+            border-radius: 50%;
+         }
+
+         .box1{
+            display: inline-block;
+            width: 18%;
+            height: 22.5vw;
+
+            font-size: 1.25vw;
+            margin-top: 85px;
+            margin-left: 1.8%;
+            margin-right: 1.8%;
+            padding: 18px 18px 18px 18px;
+            background-color: #f6f6f6;
+            box-shadow: 15px 12px #808080;
+         }
+
+         .box2 {
+            width: 2.5%;
+            margin-top: 45px;
+            padding-left: 0.8%;
+            padding-right: 0.8%;
+         }
+
+         /*width*/
+        ::-webkit-scrollbar {
+          width:0px;
+        }
+
+        /*track*/
+        ::-webkit-scrollbar-track {
+          background:transparent;
+        }
+
+        /*thumb*/
+        ::-webkit-scrollbar-thumb {
+          background:transparent;
+        }
+    </style>
+    <!---<link rel="stylesheet" href="css/style.css">--->
+</head>
+
+<body>
+
+<div>
+    <div class="circleShadow"></div>
+    <div class="circle"></div>
+    <h1 align="left">PageRank</h1>
+    <p align="left"><b>What is PageRank?</b><br>PageRank is an algorithm developed by <a href="https://en.wikipedia.org/wiki/Larry_Page">Larry Page</a> and <a href="https://en.wikipedia.org/wiki/Sergey_Brin">Sergey Brin</a>, founders of Google, to help users find more relevant and important information more easily. Using a combination of mathematical ideas such as graph theory, and linear algebra alongside more simple concepts like probability.</p>
+</div>
+
+<div>
+    <ul>
+      <li><a href="/SamDutton-13.github.io/wdtm.html">Usage</a></li>
+      <li><a href="/SamDutton-13.github.io/Quiz.html">Quiz</a></li>
+      <li><a href="#">Home</a></li>
+    </ul>
+</div>
+
+<div>
+    <div class="container">me when talkiing wrods are hard to write this fast when you havee no clue what you are writing i should be paying attention in real analysis but here i am doing not that oh well this should be enought text me when talkiing wrods are hard to write this fast when you havee no clue what you are writing i should be paying attention in real analysis but here i am doing not that oh well this should be enought text me when talkiing wrods are hard to write this fast when you havee no clue what you are writing i should be paying attention in real analysis but here i am doing not that oh well this should be enought text</div>
+</div>
+
+<!--needs a section like splitters/ pannels with some words inside-->
+<div>
+    <div class="box1">What kind of scale does PageRank use? <br><br><br> PageRank uses a logarithmic scale from 0-10 to score to pages rather than a linear scale. PageRank and this score can be found in the toolbar of the browser if the required Google extensions are installed.</div>
+    <div class="box1">What is a Backlink? <br><br><br>A backlink of a page is a link that is directed to it from any other page. For example, a page A has a link to page B, then B has a backlink from A. These links are the more important type when calculating the PageRank score. </div>
+    <div class="box1">What structure do the links from pages make? <br><br><br> When considering pages and links, PageRank forms a network with the pages as nodes and links as weighted edges. This forms a network in the mathematical sense that is studied in graph theory.</div>
+</div>
+
+<div class="box2"></div>
+</body>
+</html>
