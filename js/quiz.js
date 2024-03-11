@@ -15,7 +15,7 @@ const quizData = [
     answer: 'Quality Backlinks',
   },
   {
-    question: 'Which backlink would be more important?',
+    question: 'Which backlink would be more valuable when calculating a PageRank score?',
     options: ['Wikipedia', 'Minerva', 'The Guardian', 'Yahoo Answers'],
     answer: 'Wikipedia',
   },
