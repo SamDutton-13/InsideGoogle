@@ -10,12 +10,7 @@ const quizData = [
     answer: '0-10',
   },
   {
-    question: 'Which feature is more important in the score calculation?',
-    options: ['Quality Backlinks', 'Quality Hyperlinks', 'Quantity of Hyperlinks', 'Quantity of Backlinks'],
-    answer: 'Quality Backlinks',
-  },
-  {
-    question: 'Which backlink would be more valuable when calculating a PageRank score?',
+    question: 'Which backlink do you think would be more valuable when calculating a PageRank score?',
     options: ['Wikipedia', 'Minerva', 'The Guardian', 'Yahoo Answers'],
     answer: 'Wikipedia',
   },
@@ -24,6 +19,37 @@ const quizData = [
     options: ['Geometry','Linear Algebra','Graph Theory','Probability'],
     answer: 'Geometry',
   },
+    {
+    question: 'What year was PageRank originally developed?',
+    options: ['1996','2000','1998','1994'],
+    answer: '1996',
+  },
+    {
+    question: 'When was AdWords officially launched?',
+    options: ['2000', '1996', '1998', '1994'],
+    answer: '2000',
+  },
+    {
+    question: 'Which blank fills in the formula: Cost per Click Bid * _____ = Importance Score ',
+    options: ['Quality Score', 'Click-through rate', 'PageRank score'],
+    answer: 'Quality Score',
+  },
+    {
+    question: 'What is the importance score of a bidder with a quality score of 8 and a bid of $3?',
+    options: ['$24', '$11', '$16', '$32'],
+    answer: '$24',
+  }
+      {
+    question: 'what is the term for how many clicks a slot on the search engine in a given time period?',
+    options: ['Click-through rate', 'Quality Score', 'Cost per Click Bid'],
+    answer: 'Click-through rate',
+  },
+  {
+    question: 'What type of auction is the AdWords auction?',
+    options: ['GSP', 'Sealed Bid', 'Reverse Auction', 'Dutch Auction'],
+    answer: 'GSP',
+  }
+
 ];
 
 const quizContainer = document.getElementById('quiz');
