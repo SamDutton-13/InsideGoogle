@@ -41,11 +41,12 @@
           border-radius: 30%;
         }
 
-        @ media (pointer:none), ( pointer:coarse){
-                li a {
-                  font-size: 0.5em;
-                  }
-               }
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  li a{
+    font-size:0.7em ;
+  }
+}
 
         li a:hover {
           color: black;
