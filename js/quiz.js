@@ -9,6 +9,7 @@ const quizData = [
     options: ['0-10', '0-100', '0-50', '0-1'],
     answer: '0-10',
   },
+  /*
   {
     question: 'Which backlink do you think would be more valuable when calculating a PageRank score?',
     options: ['Wikipedia', 'Minerva', 'The Guardian', 'Yahoo Answers'],
@@ -19,6 +20,7 @@ const quizData = [
     options: ['Geometry','Linear Algebra','Graph Theory','Probability'],
     answer: 'Geometry',
   },
+  */
     {
     question: 'What year was PageRank originally developed?',
     options: ['1996','2000','1998','1994'],

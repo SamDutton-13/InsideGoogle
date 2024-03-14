@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb1577ef-bbb3-4954-934b-65bd6b3f93cd" name="Changes" comment="Changing scaling of text on mobile" />
+    <list default="true" id="fb1577ef-bbb3-4954-934b-65bd6b3f93cd" name="Changes" comment="Changing scaling of text on mobile">
+      <change beforePath="$PROJECT_DIR$/js/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/quiz.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
