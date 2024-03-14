@@ -38,7 +38,7 @@ const quizData = [
     question: 'What is the importance score of a bidder with a quality score of 8 and a bid of $3?',
     options: ['$24', '$11', '$16', '$32'],
     answer: '$24',
-  }
+  },
       {
     question: 'what is the term for how many clicks a slot on the search engine in a given time period?',
     options: ['Click-through rate', 'Quality Score', 'Cost per Click Bid'],
